@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 * {
   box-sizing: border-box;
 }
@@ -9,7 +11,7 @@ html {
   line-height: 1.5;
 
   color: #ebe7ef;
-  background: radial-gradient(#280a48, #20043d);
+  background: radial-gradient(white, whitesmoke);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -29,7 +31,7 @@ main h2 {
   text-align: center;
   font-family: "Roboto Condensed", sans-serif;
   margin: 0 0 1.5rem 0;
-  color: #a18aba;
+  color: #4b5320;
 }
 
 #examples {
@@ -53,7 +55,7 @@ main h2 {
   border: none;
   border-radius: 6px;
   background-color: transparent;
-  color: #a18aba;
+  color: #4b5320;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1rem;
   cursor: pointer;
@@ -61,19 +63,19 @@ main h2 {
 }
 
 #examples menu button:hover {
-  background-color: #1b082f;
+  background-color: #363a16 ;
   color: #ebe7ef;
 }
 
 #examples menu button.active {
-  background-color: #7925d3;
+  background-color: #4B5320;
   color: #ebe7ef;
 }
 
 #tab-content {
   padding: 1rem;
   border-radius: 6px;
-  background-color: #2f1d43;
+  background-color: #363a16;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
