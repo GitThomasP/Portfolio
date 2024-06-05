@@ -20,14 +20,15 @@ export default function App() {
       <NavigationBar />
       <Header />
       <main>
-        <section id='core-concepts'>
+        
+        {/* <section id='core-concepts'>
           <h2>Core Concepts</h2>
-          <ul>
+          <ul> */}
             {/* Dynamisk måde at skrive nedenstående på */}
             {/* Key bliver brugt til at identificere et element med unik identifier*/}
-            {CORE_CONCEPTS.map((conceptItem) => (
+            {/*CORE_CONCEPTS.map((conceptItem) => (
               <CoreConcept key={conceptItem.title} {...conceptItem} />
-            ))}
+            ))*/}
 
             {/* Længere måde at skrive ovenstående på 
             <CoreConcept
@@ -41,9 +42,10 @@ export default function App() {
             <CoreConcept {...CORE_CONCEPTS[2]} />
             <CoreConcept {...CORE_CONCEPTS[3]} />
             */}
-          </ul>
+            
+          {/* </ul>
         </section>
-
+ */}
         <section id='examples'>
           <h2>Examples</h2>
           <menu>
