@@ -1,0 +1,66 @@
+#examples-container {
+    width: 90%;
+    max-width: 50rem;
+    margin: auto;
+  }
+  
+#examples-container h2 {
+    text-align: center;
+    margin: 0 0 1.5rem 0;
+    color: #4b5320;
+  }
+  
+  #projects-container {
+    margin: 3rem auto;
+    height: 90vh;
+  }
+  
+  
+  #projects-container h2 {
+    text-align: left;
+  }
+  
+  #projects-container menu {
+    margin: 1rem 0;
+    padding: 0;
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+  }
+  
+  #projects-container menu button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    background-color: transparent;
+    color: #4b5320;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  #projects-container menu button:hover {
+    background-color: #363a16 ;
+    color: #ebe7ef;
+  }
+  
+  #projects-container menu button.active {
+    background-color: #4B5320;
+    color: #ebe7ef;
+  }
+  
+  #tab-content {
+    padding: 1rem;
+    border-radius: 6px;
+    background-color: #363a16;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  #tab-content h3 {
+    margin: 0;
+  }
+  
+  #tab-content code {
+    font-size: 1rem;
+  }
+  
