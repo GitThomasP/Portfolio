@@ -2,7 +2,7 @@ import "./NavigationBar.css";
 import NavItem from "./NavItem.jsx";
 
 export default function NavigationBar() {
-  const navItems = ["Home", "Projects", "About", "Contact"];
+  const navItems = ["Home", "Projects", "About","Contact"];
 
   return (
     <div className='navigation-bar'>

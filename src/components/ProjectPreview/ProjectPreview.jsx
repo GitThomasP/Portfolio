@@ -5,6 +5,7 @@ import "./ProjectPreview.css";
 
 export default function ProjectPreview() {
   const [selectedTopic, setSelectedTopic] = useState();
+  const TabButtons = ["components", "jsx", "props", "state"];
 
   function clickHandler(selectedButton) {
     setSelectedTopic(selectedButton);
@@ -15,33 +16,15 @@ export default function ProjectPreview() {
       <div id='projects-container'>
         <h2>Examples</h2>
         <menu>
-          {" "}
           {/* hvis clickHandler ikke har input parametre skal den ikke afsluttes med () */}
-          <TabButton
-            isSelected={selectedTopic === "components"}
-            onClick={() => clickHandler("components")}
-          >
-            Components
-          </TabButton>
-          <TabButton
-            isSelected={selectedTopic === "jsx"}
-            onClick={() => clickHandler("jsx")}
-          >
-            JSX
-          </TabButton>
-          <TabButton
-            isSelected={selectedTopic === "props"}
-            onClick={() => clickHandler("props")}
-          >
-            Props
-          </TabButton>
-          <TabButton
-            isSelected={selectedTopic === "state"}
-            onClick={() => clickHandler("state")}
-          >
-            State
-          </TabButton>
+          {TabButtons.map((tabButton) => (
+            <TabButton key={tabButton} 
+              isSelected={selectedTopic === tabButton}
+              onClick={() => clickHandler(tabButton)}
+              > {tabButton} </TabButton>
+          ))}
         </menu>
+        
         {/*Hvis selectedTopic er falsy så(?) vises teksten ellers(:) vises intet */}
         {!selectedTopic ? <p>Please select a topic</p> : null}
         {selectedTopic ? (
