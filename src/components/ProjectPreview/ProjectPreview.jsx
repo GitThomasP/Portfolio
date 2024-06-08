@@ -16,7 +16,6 @@ export default function ProjectPreview() {
       <div id='projects-container'>
         <h2>Examples</h2>
         <menu>
-          {/* hvis clickHandler ikke har input parametre skal den ikke afsluttes med () */}
           {TabButtons.map((tabButton) => (
             <TabButton key={tabButton} 
               isSelected={selectedTopic === tabButton}
@@ -24,9 +23,9 @@ export default function ProjectPreview() {
               > {tabButton} </TabButton>
           ))}
         </menu>
-        
+
         {/*Hvis selectedTopic er falsy så(?) vises teksten ellers(:) vises intet */}
-        {!selectedTopic ? <p>Please select a topic</p> : null}
+        {!selectedTopic ? null : null}
         {selectedTopic ? (
           <div id='tab-content'>
             <h3>{EXAMPLES[selectedTopic].title}</h3>
