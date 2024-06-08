@@ -1,7 +1,7 @@
-import "./CoreConcept.css";
+import "./AboutForm.css";
 
 //Object destructuring i stedet for at skrive props.image, props.title, props.description
-export default function CoreConcept({image, title, description}) {
+export default function AboutForm({image, title, description}) {
   return (
     <li>
       <img src={image} alt={title} />
