@@ -1,4 +1,3 @@
-import coreConceptPng from "../../assets/react-core-concepts.png";
 import "./Header.css";
 
 export default function Header() {
