@@ -1,4 +1,3 @@
-
 import "./NavigationBar.css";
 import NavItem from "./NavItem.jsx";
 
