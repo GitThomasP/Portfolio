@@ -7,7 +7,7 @@ export default function NavigationBar() {
   return (
     <div className='navigation-bar'>
       <div className='navigation-container'>
-        <img></img>
+        <a href=""><span className="NavLogo">Thomas Baaré</span> </a>
         <ul>
           {navItems.map((navItem) => (
             <NavItem key={navItem}>{navItem}</NavItem>
