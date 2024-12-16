@@ -10,10 +10,6 @@
   border-bottom: 1px solid #dadce0;
 }
 
-.navigation-bar img {
-  float: left;
-}
-
 .navigation-bar ul {
   padding: 0px;
   margin: 0px;
@@ -43,7 +39,13 @@
 
 .NavLogo {
   float: left;
-  color: black;
+  color: #345320;
+  font-size: 16px;
+  font-family:cursive;
+  text-decoration: none;
+  line-height: 70px;
+  padding-left:  15px;
+  opacity: 0.7;
   text-align: center;
 }
 

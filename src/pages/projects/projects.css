@@ -11,14 +11,16 @@ Setup
     --var-cyan: hsl(178, 100%, 50%);
     /* Neutral */
     --var-main-darkest: hsl(217, 54%, 11%);
-    --var-card-dark: hsl(216, 50%, 16%);
-    --var-line-dark: hsl(215, 32%, 27%);
+    --var-card: color.White;
+    /* --var-card: hsl(216, 50%, 16%); */
+    --var-line-dark: #dadce0;
     --var-lightest: white;
 
 }
 
 html {
     box-sizing: border-box;
+    border: 1px solid #dadce0
 }
 
 *, *::before, *::after {
@@ -38,7 +40,8 @@ a {
 }
 
 section {
-    height: 91vh;
+    height: auto;
+    margin-bottom: 30px;
 }
 
 /*
@@ -50,7 +53,8 @@ Font Styling
 h1 {
     font-size: 20px;
     font-weight: 500;
-    color: var(--var-lightest);
+    color: black;
+    font-weight: bold;
     padding: 0.5em 0;
 }
 
@@ -69,7 +73,7 @@ section > h2 {
 }
 p {
 
-    color: var(--var-soft-blue);
+    color: #4B5320;
 }
 /* 
 =====================
@@ -85,16 +89,20 @@ Classes
     height: auto;
     gap: 2em;
     flex-wrap: wrap;
+    
 }
 
 .card-container {
     width: 100%;
     max-width: 300px;
     margin: 2em auto;
-    background-color: var(--var-card-dark);
+    background-color: var(--var-card);
     border-radius: 15px;
     margin-bottom: 1rem;
     padding: 2rem;
+    border: 1px solid #dadce0;
+    box-shadow: 0 0 20px 8px #d0d0d0;
+    overflow: hidden;
 }
 
 div.flex-row {

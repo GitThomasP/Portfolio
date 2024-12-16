@@ -23,7 +23,7 @@ export default function projects() {
           </a>
           <main className='main-content'>
             <h1>
-              Equilibrium #3429
+              Project 1
             </h1>
             <p>Our Equilibrium collection promotes balance and calm.</p>
             
@@ -52,7 +52,7 @@ export default function projects() {
           </a>
           <main className='main-content'>
             <h1>
-              Equilibrium #3429
+            Project 2
             </h1>
             <p>Our Equilibrium collection promotes balance and calm.</p>
           </main>
@@ -80,7 +80,7 @@ export default function projects() {
           </a>
           <main className='main-content'>
             <h1>
-              Equilibrium #3429
+            Project 3
             </h1>
             <p>Our Equilibrium collection promotes balance and calm.</p>
           </main>
@@ -108,7 +108,7 @@ export default function projects() {
           </a>
           <main className='main-content'>
             <h1>
-              Equilibrium #3429
+            Project 4
             </h1>
             <p>Our Equilibrium collection promotes balance and calm.</p>
           </main>
