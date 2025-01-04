@@ -12,7 +12,7 @@ export default function ProjectPreview() {
   }
 
   return (
-    <section id='examples-container'>
+    <section id='examples-container' className="section-container">
       <div id='projects-container'>
         <h2>Examples</h2>
         <menu>

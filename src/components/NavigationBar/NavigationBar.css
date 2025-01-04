@@ -9,6 +9,9 @@
   text-align: center;
   border-bottom: 1px solid #dadce0;
   background-color: white;
+}
+
+.navBarScrolled {
   opacity: 0.9;
 }
 

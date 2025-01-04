@@ -1,9 +1,12 @@
+import { HashLink } from "react-router-hash-link";
 import { Link } from "react-router-dom";
 export default function NavItem({ children }) {
-  const link = '/' + children.toLowerCase();
+  let link = '/' + children.toLowerCase();
+
+  children.toLowerCase() === 'about' || children.toLowerCase() === 'contact' || children.toLowerCase() === 'home' ? link= '/home#' + children.toLowerCase() : link = '/' + children.toLowerCase();
   return (
     <li className='nav-item'>
-      <Link to={link}>{children}</Link>
+      <HashLink smooth to={link}>{children}</HashLink>
     </li>
   );
 }
