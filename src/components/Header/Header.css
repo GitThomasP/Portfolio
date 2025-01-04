@@ -14,8 +14,13 @@ header {
     font-size: 3rem;
     color: #4B5320;
     padding-bottom: 0;
+    padding-top: 0.2em;
   }
   
+  header .anchor-text {
+    text-align: right;
+  }
+
   .title-handle {
     color: black;
     font-size: 1.5rem;
@@ -27,7 +32,6 @@ header {
     margin: 0;
     font-size: 1.25rem;
     color: black;
-    font-family: "Open Sans", sans-serif;
   }
 
 

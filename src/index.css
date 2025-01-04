@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
 
-* {
-  box-sizing: border-box;
-}
+
 
 html {
   font-family: "Helvetica Neue", sans-serif;
@@ -14,13 +12,22 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  min-height: 80rem;
+}
+
+body {
+  margin: 0;
+}
+
+body .content {
+  scroll-behavior: smooth;
+  overflow: auto;
+  margin: 0 auto;
 }
 
 .section-container {
-height: 100vh;
-width: 100vw;
-border-bottom: 1px solid #dadce0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border-bottom: 1px solid #dadce0;
 }
-
-
