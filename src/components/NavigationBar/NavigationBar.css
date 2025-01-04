@@ -8,6 +8,8 @@
   width: 100%;
   text-align: center;
   border-bottom: 1px solid #dadce0;
+  background-color: white;
+  opacity: 0.9;
 }
 
 .navigation-bar ul {
@@ -27,6 +29,10 @@
   display: inline;
 }
 
+.nav-item a:hover {
+  font-weight: bold;
+}
+
 .nav-item a {
   color: black;
   font-size: 16px;
@@ -37,15 +43,4 @@
   opacity: 0.7;
 }
 
-.NavLogo {
-  float: left;
-  color: #345320;
-  font-size: 16px;
-  font-family:cursive;
-  text-decoration: none;
-  line-height: 70px;
-  padding-left:  15px;
-  opacity: 0.7;
-  text-align: center;
-}
 

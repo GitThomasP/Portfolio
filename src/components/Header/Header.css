@@ -23,8 +23,28 @@ header {
     font-family: "Open Sans", sans-serif;
   }
 
+
+  .git-btn {
+    width: 100px;
+    height: 40px;
+    float: left;
+    margin-top: 20px;
+    border-color: #6e5494;
+    color: #6e5494;
+  
+  }
+
+  .git-btn:hover {
+    background-color: #6e5494;
+    color: white;
+    border-color: #6e5494;
+  }
+
+  .git-btn a {
+    text-decoration: none;
+  } 
   .header-container { 
-    height: 91vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;

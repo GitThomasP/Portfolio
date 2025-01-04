@@ -6,9 +6,8 @@ export default function NavigationBar() {
   const navItems = ["Home", "Projects", "About","Contact"];
 
   return (
-    <div className='navigation-bar'>
+    <div className='navigation-bar fixed-top'>
       <div className='navigation-container'>
-        <a><span className="NavLogo">Thomas Baaré</span></a>
         <ul>
           {navItems.map((navItem) => (
             <NavItem key={navItem}>{navItem}</NavItem>
