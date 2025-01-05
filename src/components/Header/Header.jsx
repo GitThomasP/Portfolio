@@ -3,7 +3,7 @@ import "./Header.css";
 export default function Header() {
   return (
     <header>
-      <div className='header-container section-container'>
+      <div className='header-container section-container gradient-background'>
         <div>
           <p className='title-text'>Hi! I am,</p>
           <h1>Thomas Baaré</h1>

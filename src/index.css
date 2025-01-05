@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
 
-
+* {
+  font-family: "Helvetica Neue", sans-serif;
+}
 
 html {
-  font-family: "Helvetica Neue", sans-serif;
   line-height: 1.5;
   color: #ebe7ef;
   background: radial-gradient(white, whitesmoke);
@@ -14,8 +15,25 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+.gradient-background {
+  background: linear-gradient(
+    300deg,
+    #435334,
+    #71835c,
+    #9eb384,
+    #bed0aa,
+    #bed0aa,
+    #9eb384,
+    #71835c,
+    #435334
+  );
+  background-size: 180% 180%;
+  animation: gradient-animation 8s ease infinite;
+}
+
 body {
   margin: 0;
+  /*background-color: #0d1117;*/
 }
 
 body .content {
