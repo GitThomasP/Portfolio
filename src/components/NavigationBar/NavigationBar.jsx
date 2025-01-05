@@ -8,6 +8,11 @@ export default function NavigationBar() {
   const [isScrolled, setIsScrolled] = useState(false);
   
   window.onscroll = () => {window.scrollY === 0 ? setIsScrolled(false) : setIsScrolled(true)};
+
+  function navClickHandler(navItem) {
+    navItem === "Home" ? setIsScrolled(false) : setIsScrolled(true);
+  }
+
   return (
     
     <div className={`navigation-bar fixed-top ${isScrolled ? 'navBarScrolled' : ''}`}>
