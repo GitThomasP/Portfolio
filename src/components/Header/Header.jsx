@@ -9,7 +9,7 @@ export default function Header() {
           <h1>Thomas Baaré</h1>
           <h2 className="title-handle">Aspiring Front-End Developer</h2>
           <p className="anchor-text">Welcome to my portfolio!</p>
-          <button type='button' className='btn btn-outline git-btn'>
+          <button type='button' className='btn git-btn'>
             <a href='https://github.com/GitThomasP' target='_blank'>
               {" "}
               <i className='bi bi-github'></i> Github{" "}
