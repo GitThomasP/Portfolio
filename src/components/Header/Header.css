@@ -11,23 +11,12 @@ header {
   header h1 {
     margin: 0;
     font-family: "Helvetica Neue", sans-serif;
-    font-size: 3rem;
+    font-size: 4rem;
     color: #4B5320;
     padding-bottom: 0;
-    padding-top: 0.2em;
-  }
-  
-  header .anchor-text {
-    text-align: right;
+    padding-top: 0.1em;
   }
 
-  .title-handle {
-    color: black;
-    font-size: 1.5rem;
-    font-family: "Helvetica Neue", sans-serif;
-    color: #4B5320;
-    margin-bottom: 20px;
-  }
   header p {
     margin: 0;
     font-size: 1.25rem;
@@ -36,13 +25,14 @@ header {
 
 
   .git-btn {
-    width: 100px;
-    height: 40px;
-    float: left;
+    width: 150px;
+    height: 45px;
     margin-top: 20px;
     background-color: #6e5494;
     color: white;
     border-color: #6e5494;
+    margin-top: 30px;
+    font-size: 1.2rem;
   
   }
 
@@ -63,6 +53,22 @@ header {
     justify-content: center;
   }
 
+  .title-text, .anchor-text {
+    font-size: 1.5rem;
+  }
+
   .title-text {
-    margin-right: 10rem;
+    margin-right: 15rem;
+  }
+
+  .anchor-text {
+    text-align: right;
+  }
+
+  .title-handle {
+    color: black;
+    font-size: 2rem;
+    font-family: "Helvetica Neue", sans-serif;
+    color: #4B5320;
+    margin-bottom: 20px;
   }
